@@ -31,9 +31,9 @@
 	<header class="topHeader">
 				
 			<div class="whiteColor returnHome"><div class="languagesMenu"><a id="changeEs" href="javascript:;">ESP</a> | <a id="changeEn" href="javascript:;">ENG</a></div>
-			<?php if (!is_front_page()) : ?>
-				<a class="linkReturnHomePage" href="/">< RETURN TO HOMEPAGE <</a>
-			<?php endif; ?>	
+			<?php //if (!is_front_page()) : ?>
+				<!--<a class="linkReturnHomePage" href="/">< RETURN TO HOMEPAGE <</a>-->
+			<?php //endif; ?>	
 			
 			<ul class="shopHeader ">
 				<li><span>LOGIN</span></li>
