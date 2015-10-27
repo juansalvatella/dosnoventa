@@ -47,6 +47,11 @@ hr {
 	display: none;
 }
 
+.love{
+	margin-right: 5px;
+    margin-top: -4px;
+}
+
 
 .hide {
 	display: none;
@@ -212,6 +217,11 @@ ul li a:hover {
 
 .socialIcons img {
 	width: 40px;
+	opacity: 0.5;
+}
+
+.socialIcons img:hover {
+	opacity: 1;
 }
 
 .textwidget{
@@ -231,6 +241,8 @@ ul li a:hover {
 	color:black !important;
 	margin-top: 40px !important;
 	text-transform: uppercase;
+	font-size: 18px !important;
+    font-family: "Futura";
 }
 
 #sbi_load > a {
@@ -395,13 +407,22 @@ ul#menu-global_menu li {
 	margin-left: 60px;
 }
 
+ul#menu-footer2 li a:hover{
+	color:#ffd800;
+}
+
 ul#menu-footer2 li a{
 	font-family: 'Helvetica';
+
 }
 
 ul#menu-footer3 li a{
 	font-family: 'Helvetica';
 }
+ul#menu-footer3 li a:hover{
+	color:#ffd800;
+}
+
 
 
 .whiteColor {
@@ -518,6 +539,10 @@ ul#menu-footer3 li a{
 	margin-bottom: 0px;
 }
 
+.main-navigation ul li.current-menu-item a {
+	color:black;
+}
+
 .main-navigation ul li a {
 	font-size: 22px;
 }
@@ -604,6 +629,13 @@ ul#menu-footer3 li a{
 	.entry-content h1 {
 		margin-top:0px;
 		margin-bottom:0px;
+	}
+
+	.entry-content h2 {
+		font-size: 28px;
+		line-height: 36px;
+		margin-bottom: 28px;
+		margin-top: 22px;
 	}
 }
 
@@ -886,6 +918,13 @@ ul.sub-menu li a{
 
 /*CUSTOM GALLERY DNV*/
 
+#gallery-2{
+	margin-left: -4px;
+}
+
+.gallery-columns-3 .gallery-item {
+    margin-left: 3px;
+}
 
 .boxImage{
 	width: 49%;
